@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>CSS Vertical (Yatay) Navigation Bar</title>
+
+
+    <style>
+        ul {
+            list-style-type: none;
+            width: 30%;
+        }
+
+        ul li {
+            background-color: lightcyan;
+            padding: 4px;
+            margin-left: -30px;
+        }
+
+        ul li:hover {
+            background-color: grey;
+            transition: 0.5s;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        ul li:nth-child(1) {
+            background-color: green;
+        }
+
+        i {
+            padding-right: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--https://www.w3schools.com/css/css_navbar.asp Daha fazla detay için -->
+
+    <ul>
+        <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="#"><i class="fa-regular fa-newspaper"></i>News</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-card"></i>About</a></li>
+    </ul>
+</body>
+
+</html>
